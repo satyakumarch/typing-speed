@@ -1,6 +1,6 @@
 let TIME_LIMIT=60;
 
-let quores_array=[
+let quotes_array=[
     "Video provides a powerful way to help you prove your point. When you click Online Video",
     " you can paste in the embed code for the video you want to add. You can also type a keyword ",
      "to search online for the video that best fits your document.",
@@ -17,10 +17,10 @@ let quores_array=[
     
 ];
 
-let timer_text=document.querySelector(".curr_timer");
+let timer_text=document.querySelector(".curr_time");
 let accuracy_text=document.querySelector(".curr_accuracy");
-let error_text=document.querySelector("curr_errors");
-let cpm_text=document.querySelector("curr_cpm");
+let error_text=document.querySelector(".curr_errors");
+let cpm_text=document.querySelector(".curr_cpm");
 let wpm_text = document.querySelector(".curr_wpm");
 let quote_text = document.querySelector(".quote");
 let input_area = document.querySelector(".input_area");
